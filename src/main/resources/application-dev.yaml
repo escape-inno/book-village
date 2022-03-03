@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/book?autoReconnect=true&characterEncoding=utf-8&serverTimezone=Asia/Seoul
+    username: book
+    password: village123$
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  level:
+    inno.escape.bookvileage: debug
