@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+spring:
+  profiles:
+    include:
+    active: local
+  application:
+    name: book-vileage-server
